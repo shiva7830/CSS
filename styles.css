@@ -1,0 +1,816 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  .div1{
+    display: flex;
+    /* border-bottom: 2px solid black; */
+    text-align: center;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  .div1 div:nth-child(1) img{
+    width: 170px;
+    height: 40px;
+  }
+  .div1 div:nth-child(2) img{
+    width: 25px;
+    height: 22px;
+  }
+  .div1 div{
+    margin-left: 30px;
+  }
+  .div1 div:nth-child(2){
+    margin-left: 530px;
+    padding-bottom: 20px;
+  }
+  .div1 div:nth-child(2) a{
+     margin-right: 20px;
+     padding-bottom: 0px;
+     text-decoration: none;
+     color: black;
+     font-weight: 100;
+     font-size: 18px;
+     font-family:sans-serif;
+  }
+  .div1 div:nth-child(2) a:hover{
+    color: purple;
+  }
+
+
+
+  .div2{
+    background-image: url(banner-bg.png);
+    text-align: center;
+    overflow: hidden;
+    height: 410px;
+  }
+  .div2 h2{
+    color: white;
+    padding: 50px 0px;
+    font-size: 47px;
+    font-family: inherit;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .div2 h4{
+    font-size: 28px;
+    color: white;
+    padding: 0px 500px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .btn{
+    margin: 50px 0px;
+    padding: 13px 45px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+  }
+  .btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(172, 13, 172);
+  }
+  .div3{
+    text-align: center;
+    margin: 70px 0px;
+  }
+  .div3 h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .div0{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .div4{
+    text-align: center;
+  }
+  .div4 .div0{
+    padding:0px 90px
+  }
+  .div4 .btn{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 35px;
+  }
+  .div4 .btn:hover{
+    background-color: black;
+  }
+
+  .div5>div:nth-child(1){
+    text-align: center;
+    margin: 90px 0px;
+    padding: 0px 300px;
+  }
+  .div5>div:nth-child(1) h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+  }
+  .div5>div:nth-child(2){
+    display: flex;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  .div5>div:nth-child(2) h3{
+    margin: 30px 0px;
+    font-size: 23px;
+    font-weight: 400;
+  }
+  .div5>div:nth-child(2) p{
+    padding: 0px 70px;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .div5{
+    background-color: #FCF8FE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .div6{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+  }
+  .div6 form{
+    padding: 40px;
+    height: 550px;
+    background-color: #4323B1;
+    margin-top: 10px;
+  }
+  .div6 input{
+
+    font-size: 20px;
+    padding: 10px 5px;
+    padding-right: 290px;
+    margin: 10px 0px;
+  }
+  .div6 button{
+    margin-left: 150px;
+    background-color: purple;
+    color: white;
+  } 
+  .div6 button:hover{
+    background-color: white;
+    color: #4323B1;
+  }
+  .div6 h1{
+
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+  .div6 img{
+
+    height: 500px;
+    width: 600px;
+    margin-top: 110px;
+    margin-right: 90px;
+  }
+  #subject{
+    height:100px;
+    width: 508px;
+  }
+ .div7{
+  text-align: center;
+  margin-bottom: 50px;
+ }
+ .div7 h1{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+ }
+ .div7 p{
+  padding: 0px 360px;
+ }
+ .div7 h5{
+  font-size: 27px;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 70px;
+ }
+ .div7 h6{
+  padding: 0px 290px;
+  line-height: 25px;
+  font-style: italic;
+  margin: 30px 0px;
+ }
+.div8{
+   text-align: center;
+   padding: 20px 0px;
+   background-image: linear-gradient(to right,blueviolet,rgb(63, 63, 185));
+}
+.div8 input{
+  padding: 20px 0px;
+  padding-right: 400px;
+  padding-top: 0px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white ;
+}
+.div8 input::placeholder{
+  color: white;
+}
+.div8 .btn{
+  /* position:absolute;
+  right: 0; */
+  padding: 10px 10px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.div8 h1{
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px 0px;
+  color: white;
+}
+.div8 h2{
+   font-size: 33px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+}
+.div8 img{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.footer {
+  /* position: fixed;
+  left: 0;
+  bottom: 0; */
+  width: 100%;
+  background-color:white;
+  color: black;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .div1 {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 450px;
+
+    }
+      .div1 div:nth-child(1)  img{
+      margin-right: 200px;
+      margin-bottom: 10px;
+     }
+    .div1 div:nth-child(1){
+      margin-left: 00px;
+      padding-left: 0px;
+    }
+    .div1 div:nth-child(2){
+      font-size: 8px;
+      margin: 0px;
+    }
+    .div1 div:nth-child(2) a{
+      font-size: 12px;
+      margin-right: 5px;
+      padding: 0px;
+    }
+    .div1 div:nth-child(2) img{
+      width: 15px;
+      height: 10px;
+    }
+    .div2{
+      margin-top: 50px;
+    }
+    .div2 h4{
+      padding: 0px;
+    }
+    .div3 h1{
+      font-size: 30px;
+    }
+    .div4 img{
+      width: 390px;
+    }
+    .div4 p{
+      line-height: 25px;
+    }
+    .div5 
+    {
+      display: inline-block;
+    }
+    .div5>div:nth-child(1){
+      text-align: center;
+      padding: 0px;
+    }
+    .div5 div:nth-child(1) p{
+      padding: 0px 0px;
+      line-height: 25px;
+      font-size: 20px;
+      margin: 0px;
+    }
+    .div5>div:nth-child(2){
+      display: inline-block;
+    }
+    .div6 {
+      display: inline-block;
+    }
+    .div6 h1{
+      font-size: 23px;
+      margin-right: 10px;
+    }
+    .div6 div{
+     padding-right: 0px;
+     width: 420px;
+      /* padding: 20px 0px; */
+     
+    }
+    .div6 div form{
+      padding: 30px 0px;
+      margin: 0px;
+      width: 400px;
+    }
+    .div6 input{
+      margin: 10px 0px;
+      padding: 8px;
+      padding-right: 100px;
+    }
+    #subject{
+      width: 320px;
+      height: 100px;
+      padding-left: 10px;
+     
+    }
+    .div6 .btn{
+      margin-left: 50px;
+    }
+    .div6 img{
+      width: 300px;
+      margin-left: 50px;
+    }
+    .div7 .div0{
+      display: inline-block;
+      padding: 0px 10px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .div1 {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 850px;
+
+    }
+      .div1 div:nth-child(1)  img{
+      margin-right: 200px;
+      margin-bottom: 10px;
+     }
+    .div1 div:nth-child(1){
+      margin-left: 00px;
+      padding-left: 0px;
+    }
+    .div1 div:nth-child(2){
+      font-size: 8px;
+      margin: 0px;
+    }
+    .div1 div:nth-child(2) a{
+      font-size: 12px;
+      margin-right: 5px;
+      padding: 0px;
+    }
+    .div1 div:nth-child(2) img{
+      width: 15px;
+      height: 10px;
+    }
+    .div2{
+      margin-top: 50px;
+      height: 402px;
+      width: 800px;
+    }
+    .div2 h2{
+      font-size: 35px;
+      margin-top: 30px;
+    }
+    .div2 h4{
+      padding: 0px 130px;
+    }
+    .div3 h1{
+      font-size: 30px;
+    }
+    .div3 p{
+      padding: 0px 50px;
+    }
+    .div4 img{
+      width: 390px;
+    }
+    .div4 .div0{
+      line-height: 25px;
+     padding: 0px;
+     padding-right: 200px;
+     padding-left: 150px;
+    }
+    .div5 
+    {
+      display: inline-block;
+    }
+    .div5>div:nth-child(1){
+      text-align: center;
+      padding: 0px;
+    }
+    .div5>div:nth-child(1) p{
+      padding: 0px 170px;
+      padding-left: 150px;
+      line-height: 25px;
+      font-size: 15px;
+      margin: 0px;
+    }
+    .div5>div:nth-child(2){
+      display: inline-block;
+    }
+    .div5>div:nth-child(2) p{
+      padding: 0px 170px;
+      padding-left: 150px;
+      line-height: 25px;
+      font-size: 15px;
+      margin: 0px;
+    }
+    .div6 {
+      display: inline-block;
+    }
+    .div6 h1{
+      font-size: 24px;
+      margin: 0px;
+      margin-left: 220px;
+      padding: 0px 20px;
+    }
+    .div6 div{
+      margin-right: 50px;
+       width: 420px;
+      /* padding: 20px 0px; */
+     
+    }
+    .div6 div form{
+      padding: 30px 0px;
+      padding-left: 30px;
+      margin: 0px;
+      margin-left: 210px;
+      width: 400px;
+    }
+    .div6 input{
+      margin: 10px 0px;
+      padding: 8px;
+      padding-right: 100px;
+    }
+    #subject{
+      width: 320px;
+      height: 100px;
+      padding-left: 10px;
+     
+    }
+    .div6 .btn{
+      margin-left: 50px;
+    }
+    .div6 img{
+      width: 300px;
+      margin-left: 250px;
+    }
+    .div7 .div0{
+      display: inline-block;
+      padding: 0px 20px;
+      padding-right: 200px;
+    }
+    .div7 h1,.div7 h5,.div7 img{
+      margin-right: 170px;
+    }
+    .div8 input,.div8 .btn{
+      margin-right: 150px;
+    }
+    .div8 h1 ,.div8 h2{
+      margin-right: 120px;
+    }
+    .div8 h2{
+      font-size: 25px;
+    }
+  
+  }
+   
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .div1 {
+    padding-top: 10px;
+  }
+
+  /* Adjust the font size of navigation links for larger screens */
+  .div1 div:nth-child(2) a {
+    font-size: 18px;
+  }
+
+  /* Modify the layout of .div2 for larger screens */
+  .div2 {
+    height: 348px;
+  }
+
+  /* Adjust the font size of headings and buttons for larger screens */
+  .div2 h2 {
+    font-size: 40px;
+  }
+  .div2 h4 {
+    font-size: 24px;
+    padding: 0px 250px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+
+  /* Adjust the margin for .div3 and .div4 */
+  .div3,
+  .div4 {
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding and font size for .div0 in .div4 */
+  .div4 .div0 {
+    padding: 0px 50px;
+    font-size: 16px;
+  }
+
+  /* Modify the layout of .div5 for larger screens */
+  .div5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Adjust the font size of h1 and h3 inside .div5 */
+  .div5 > div:nth-child(1) h1 {
+    font-size: 30px;
+  }
+  .div5 > div:nth-child(2) h3 {
+    font-size: 18px;
+  }
+
+  /* Adjust the padding for .div5 > div:nth-child(2) p */
+  .div5 > div:nth-child(2) p {
+    padding: 0px 30px;
+  }
+
+  /* Modify the layout of .div6 for larger screens */
+  .div6 {
+    flex-direction: row;
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding and font size for input fields in .div6 */
+  .div6 input {
+    padding: 10px 5px;
+    padding-right: 200px;
+    font-size: 14px;
+  }
+
+  /* Adjust the font size for .div6 h1 */
+  .div6 h1 {
+    font-size: 24px;
+  }
+
+  /* Modify the margin for .div8 */
+  .div8 {
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding for .div8 input */
+  .div8 input {
+    padding: 10px 0px;
+    padding-right: 200px;
+    font-size: 14px;
+  }
+
+  /* Modify the font size for .div8 h1 and h2 */
+  .div8 h1 {
+    font-size: 24px;
+  }
+  .div8 h2 {
+    font-size: 16px;
+  }
+}
+
+
+/* Common styles for all screen sizes */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* Styles for screens with a width of 1000px or more */
+@media only screen and (min-width: 1000px) and (max-width:1199px) {
+  /* Adjust the layout of .div1 for larger screens */
+  .div1 {
+    padding-top: 10px;
+  }
+
+  /* Adjust the font size of navigation links for larger screens */
+  .div1 div:nth-child(2) a {
+    font-size: 18px;
+  }
+
+  /* Modify the layout of .div2 for larger screens */
+  .div2 {
+    height: 390px;
+  }
+
+  /* Adjust the font size of headings and buttons for larger screens */
+  .div2 h2 {
+    font-size: 40px;
+  }
+  .div2 h4 {
+    font-size: 24px;
+    padding: 0px 250px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+
+  /* Adjust the margin for .div3 and .div4 */
+  .div3,
+  .div4 {
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding and font size for .div0 in .div4 */
+  .div4 .div0 {
+    padding: 0px 50px;
+    font-size: 16px;
+  }
+
+  /* Modify the layout of .div5 for larger screens */
+  .div5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Adjust the font size of h1 and h3 inside .div5 */
+  .div5 > div:nth-child(1) h1 {
+    font-size: 30px;
+  }
+  .div5 > div:nth-child(2) h3 {
+    font-size: 18px;
+  }
+
+  /* Adjust the padding for .div5 > div:nth-child(2) p */
+  .div5 > div:nth-child(2) p {
+    padding: 0px 30px;
+  }
+
+  /* Modify the layout of .div6 for larger screens */
+  .div6 {
+    flex-direction: row;
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding and font size for input fields in .div6 */
+  .div6 input {
+    padding: 10px 5px;
+    padding-right: 200px;
+    font-size: 14px;
+  }
+
+  /* Adjust the font size for .div6 h1 */
+  .div6 h1 {
+    font-size: 24px;
+  }
+
+  /* Modify the margin for .div8 */
+  .div8 {
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding for .div8 input */
+  .div8 input {
+    padding: 10px 0px;
+    padding-right: 200px;
+    font-size: 14px;
+  }
+
+  /* Modify the font size for .div8 h1 and h2 */
+  .div8 h1 {
+    font-size: 24px;
+  }
+  .div8 h2 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .div1 {
+    padding-top: 10px;
+  }
+
+  /* Adjust the font size of navigation links for larger screens */
+  .div1 div:nth-child(2) a {
+    font-size: 18px;
+  }
+
+  /* Modify the layout of .div2 for larger screens */
+  .div2 {
+    height: 348px;
+  }
+
+  /* Adjust the font size of headings and buttons for larger screens */
+  .div2 h2 {
+    font-size: 40px;
+  }
+  .div2 h4 {
+    font-size: 24px;
+    padding: 0px 250px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+
+  /* Adjust the margin for .div3 and .div4 */
+  .div3,
+  .div4 {
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding and font size for .div0 in .div4 */
+  .div4 .div0 {
+    padding: 0px 50px;
+    font-size: 16px;
+  }
+
+  /* Modify the layout of .div5 for larger screens */
+  .div5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Adjust the font size of h1 and h3 inside .div5 */
+  .div5 > div:nth-child(1) h1 {
+    font-size: 30px;
+  }
+  .div5 > div:nth-child(2) h3 {
+    font-size: 18px;
+  }
+
+  /* Adjust the padding for .div5 > div:nth-child(2) p */
+  .div5 > div:nth-child(2) p {
+    padding: 0px 30px;
+  }
+
+  /* Modify the layout of .div6 for larger screens */
+  .div6 {
+    flex-direction: row;
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding and font size for input fields in .div6 */
+  .div6 input {
+    padding: 10px 5px;
+    padding-right: 200px;
+    font-size: 14px;
+  }
+
+  /* Adjust the font size for .div6 h1 */
+  .div6 h1 {
+    font-size: 24px;
+  }
+
+  /* Modify the margin for .div8 */
+  .div8 {
+    margin: 50px 0px;
+  }
+
+  /* Adjust the padding for .div8 input */
+  .div8 input {
+    padding: 10px 0px;
+    padding-right: 200px;
+    font-size: 14px;
+  }
+
+  /* Modify the font size for .div8 h1 and h2 */
+  .div8 h1 {
+    font-size: 24px;
+  }
+  .div8 h2 {
+    font-size: 16px;
+  }
+}
+
+
